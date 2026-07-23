@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { Tool } from '@/data/tools';
 import type { Faq } from '@/data/faqs';
 
-const SITE_URL = 'https://openware.top';
+const SITE_URL = 'https://www.openware.top';
 const SITE_NAME = 'Openware';
 const SITE_DESCRIPTION = 'Free, fast, and private online developer tools. All processing happens in your browser — your data never leaves your device.';
 

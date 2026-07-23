@@ -10,7 +10,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://openware.top'),
+  metadataBase: new URL('https://www.openware.top'),
   title: {
     default: 'Openware — Free Online Developer Tools | Private & Fast',
     template: '%s | Openware',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://openware.top',
+    url: 'https://www.openware.top',
     siteName: 'Openware',
   },
   twitter: {

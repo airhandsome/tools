@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Tool } from '@/data/tools';
 import type { Faq } from '@/data/faqs';
+import { seoContent } from '@/data/seoContent';
 import FaqSection from '@/components/FaqSection';
 import PrivacyBadge from '@/components/PrivacyBadge';
 import JsonLd from '@/components/JsonLd';
@@ -48,17 +49,52 @@ export default function ToolLayout({
       </div>
 
       {/* SEO Content */}
-      <div className="mt-8 text-sm text-text-secondary leading-relaxed space-y-4">
-        <p>
-          <strong className="text-text-primary">{tool.name}</strong> is a free online tool that runs entirely in your browser. 
-          Unlike many other tool websites, Openware processes all data client-side — meaning your information is never sent to any server. 
-          This makes our tools especially suitable for sensitive data like API keys, passwords, and personal information.
-        </p>
-        <p>
-          Simply paste your data into the input area above and get instant results. No signup required, no ads, no tracking. 
-          {tool.name} works on any device with a modern browser — desktop, tablet, or mobile.
-        </p>
-      </div>
+      {seoContent[tool.slug] && (
+        <div className="mt-8 space-y-6">
+          {/* About */}
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-3">{seoContent[tool.slug].about.heading}</h2>
+            <div className="text-sm text-text-secondary leading-[1.8] space-y-3">
+              {seoContent[tool.slug].about.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
+          </section>
+
+          {/* How to Use */}
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-3">{seoContent[tool.slug].howTo.heading}</h2>
+            <ol className="text-sm text-text-secondary leading-[1.8] space-y-2 list-decimal list-inside">
+              {seoContent[tool.slug].howTo.steps.map((step, i) => (
+                <li key={i}>{step}</li>
+              ))}
+            </ol>
+          </section>
+
+          {/* Features */}
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-3">{seoContent[tool.slug].features.heading}</h2>
+            <ul className="text-sm text-text-secondary leading-[1.8] space-y-1.5">
+              {seoContent[tool.slug].features.items.map((item, i) => (
+                <li key={i} className="flex items-start gap-2">
+                  <span className="text-accent mt-0.5">›</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          {/* Use Cases */}
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-3">{seoContent[tool.slug].useCases.heading}</h2>
+            <div className="text-sm text-text-secondary leading-[1.8] space-y-3">
+              {seoContent[tool.slug].useCases.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
+          </section>
+        </div>
+      )}
 
       {/* FAQ */}
       {faqs.length > 0 && <FaqSection faqs={faqs} />}

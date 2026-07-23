@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://openware.top</loc><lastmod>2026-07-23T13:57:42.408Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/privacy</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/base64</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/case-converter</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/hash-generator</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/html-encode</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/json-formatter</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/json-to-csv</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/jwt-decoder</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/password-generator</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/qr-code-generator</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/sql-formatter</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/text-to-slug</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/url-encoder</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/uuid-generator</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/word-counter</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://openware.top/tools/xml-formatter</loc><lastmod>2026-07-23T13:57:42.410Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>
